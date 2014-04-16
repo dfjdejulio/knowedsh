@@ -11,18 +11,18 @@
 
 #import <Foundation/Foundation.h>
 #import <JavaScriptCore/JavaScriptCore.h>
-#import <No D/NoDConsole.h>
+#import <Knowed/KnowedConsole.h>
 
 int main(int argc, const char * argv[])
 {
     JSContext *context;
-    NoDConsole *console;
+    KnowedConsole *console;
 
     char *buf = NULL;
     size_t bufsiz = 0;
     
     context = [[JSContext alloc] init];
-    console = [[NoDConsole alloc] initWithStdout];
+    console = [[KnowedConsole alloc] initWithStdout];
     
     context[@"console"] = console;
 
