@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4775E4F718FF0D42000E91F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4775E4F618FF0D42000E91F4 /* Foundation.framework */; };
 		4775E4FA18FF0D42000E91F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775E4F918FF0D42000E91F4 /* main.m */; };
-		4775E4FE18FF0D42000E91F4 /* NoDsh.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4775E4FD18FF0D42000E91F4 /* NoDsh.1 */; };
+		4775E4FE18FF0D42000E91F4 /* knowedsh.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4775E4FD18FF0D42000E91F4 /* knowedsh.1 */; };
 		4775E50518FF0D57000E91F4 /* Knowed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4775E50418FF0D57000E91F4 /* Knowed.framework */; };
 		4775E50718FF0DBB000E91F4 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4775E50618FF0DBB000E91F4 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
@@ -21,7 +21,7 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				4775E4FE18FF0D42000E91F4 /* NoDsh.1 in CopyFiles */,
+				4775E4FE18FF0D42000E91F4 /* knowedsh.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -30,9 +30,9 @@
 /* Begin PBXFileReference section */
 		4775E4F318FF0D42000E91F4 /* knowedsh */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = knowedsh; sourceTree = BUILT_PRODUCTS_DIR; };
 		4775E4F618FF0D42000E91F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4775E4F918FF0D42000E91F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4775E4FC18FF0D42000E91F4 /* knowedsh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "knowedsh-Prefix.pch"; sourceTree = "<group>"; };
-		4775E4FD18FF0D42000E91F4 /* NoDsh.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NoDsh.1; sourceTree = "<group>"; };
+		4775E4F918FF0D42000E91F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = knowedsh/main.m; sourceTree = "<group>"; };
+		4775E4FC18FF0D42000E91F4 /* knowedsh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "knowedsh-Prefix.pch"; path = "knowedsh/knowedsh-Prefix.pch"; sourceTree = "<group>"; };
+		4775E4FD18FF0D42000E91F4 /* knowedsh.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = knowedsh.1; path = knowedsh/knowedsh.1; sourceTree = "<group>"; };
 		4775E50418FF0D57000E91F4 /* Knowed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Knowed.framework; path = "../../../Library/Developer/Xcode/DerivedData/JS_Sandbox-dvswmgzftiidtufrsoshomgktmly/Build/Products/Debug/Knowed.framework"; sourceTree = "<group>"; };
 		4775E50618FF0DBB000E91F4 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				4775E4F918FF0D42000E91F4 /* main.m */,
-				4775E4FD18FF0D42000E91F4 /* NoDsh.1 */,
+				4775E4FD18FF0D42000E91F4 /* knowedsh.1 */,
 				4775E4FB18FF0D42000E91F4 /* Supporting Files */,
 			);
 			name = knowedsh;
