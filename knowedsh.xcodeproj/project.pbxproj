@@ -35,6 +35,7 @@
 		4775E4FD18FF0D42000E91F4 /* knowedsh.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = knowedsh.1; path = knowedsh/knowedsh.1; sourceTree = "<group>"; };
 		4775E50418FF0D57000E91F4 /* Knowed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Knowed.framework; path = "../../../Library/Developer/Xcode/DerivedData/JS_Sandbox-dvswmgzftiidtufrsoshomgktmly/Build/Products/Debug/Knowed.framework"; sourceTree = "<group>"; };
 		4775E50618FF0DBB000E91F4 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		47B64DC118FF62D800C65E92 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		4775E4EA18FF0D42000E91F4 = {
 			isa = PBXGroup;
 			children = (
+				47B64DC118FF62D800C65E92 /* README.md */,
 				4775E4F818FF0D42000E91F4 /* knowedsh */,
 				4775E4F518FF0D42000E91F4 /* Frameworks */,
 				4775E4F418FF0D42000E91F4 /* Products */,
