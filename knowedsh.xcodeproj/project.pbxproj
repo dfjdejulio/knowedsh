@@ -124,8 +124,9 @@
 		4775E4EB18FF0D42000E91F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KS;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = AISB;
+				ORGANIZATIONNAME = "Doug DeJulio";
 			};
 			buildConfigurationList = 4775E4EE18FF0D42000E91F4 /* Build configuration list for PBXProject "knowedsh" */;
 			compatibilityVersion = "Xcode 3.2";
