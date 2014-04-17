@@ -11,7 +11,7 @@
 
 #import <Foundation/Foundation.h>
 #import <JavaScriptCore/JavaScriptCore.h>
-#import <Knowed/KnowedConsole.h>
+#import <Knowed/Knowed.h>
 
 int main(int argc, const char * argv[])
 {
