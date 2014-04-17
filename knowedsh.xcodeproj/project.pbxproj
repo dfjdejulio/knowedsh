@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4734E68B1900172E00151AFC /* Knowed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FFA2FD1900147D0030E29A /* Knowed.framework */; };
 		4775E4F718FF0D42000E91F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4775E4F618FF0D42000E91F4 /* Foundation.framework */; };
 		4775E50718FF0DBB000E91F4 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4775E50618FF0DBB000E91F4 /* JavaScriptCore.framework */; };
 		47D30E1418FF6870007F4D0A /* knowedsh.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4775E4FD18FF0D42000E91F4 /* knowedsh.1 */; };
 		47D30E1518FF6940007F4D0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775E4F918FF0D42000E91F4 /* main.m */; };
-		47FFA2FE1900147D0030E29A /* Knowed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FFA2FD1900147D0030E29A /* Knowed.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47FFA2FE1900147D0030E29A /* Knowed.framework in Frameworks */,
+				4734E68B1900172E00151AFC /* Knowed.framework in Frameworks */,
 				4775E50718FF0DBB000E91F4 /* JavaScriptCore.framework in Frameworks */,
 				4775E4F718FF0D42000E91F4 /* Foundation.framework in Frameworks */,
 			);
