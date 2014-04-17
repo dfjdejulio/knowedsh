@@ -18,19 +18,32 @@ int main(int argc, const char * argv[])
     JSContext *context;
     KnowedConsole *console;
 
-    char *buf = NULL;
-    size_t bufsiz = 0;
+    __block char *buf = NULL;
+    __block size_t bufsiz = 0;
     
     context = [[JSContext alloc] init];
     console = [[KnowedConsole alloc] initWithStdout];
     
     context[@"console"] = console;
+    
+    context[@"alert"] = ^(NSString *message) {
+        printf("» %s\n", [message UTF8String]);
+    };
+    
+    context[@"prompt"] = (NSString *)^(NSString *message) {
+        printf("%s « ", [message UTF8String]);
+        ssize_t count = getline(&buf, &bufsiz, stdin);
+        if (count <1) {
+            return @"";
+        }
+        buf[count-1] = '\0';
+        return @(buf);
+    };
 
     printf("> ");
     while (getline(&buf, &bufsiz, stdin)>0) {
         @autoreleasepool {
-            NSString *thisLine = [NSString stringWithUTF8String: buf];
-            JSValue *result = [context evaluateScript: thisLine];
+            JSValue *result = [context evaluateScript: @(buf)];
             printf("%s\n> ", [[result toString] UTF8String]);
         }
     }
