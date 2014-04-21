@@ -23,8 +23,7 @@ int main(int argc, const char * argv[])
     
     context = [[JSContext alloc] init];
     console = [[KnowedConsole alloc] initWithStdout];
-    
-    context[@"console"] = console;
+    [console addSelfToContext: context];
     
     context[@"alert"] = ^(NSString *message) {
         printf("» %s\n", [message UTF8String]);
