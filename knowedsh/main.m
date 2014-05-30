@@ -38,6 +38,7 @@ int main(int argc, const char * argv[])
         buf[count-1] = '\0';
         return @(buf);
     };
+    [[KnowedFileUtil new] addSelfToContext:context];
 
     printf("> ");
     while (getline(&buf, &bufsiz, stdin)>0) {

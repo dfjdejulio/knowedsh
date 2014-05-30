@@ -230,11 +230,7 @@
 		4775E50218FF0D42000E91F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/JS_Sandbox-dvswmgzftiidtufrsoshomgktmly/Build/Products/Debug",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/KnowedStuff-axkilnccmrdixxbiqprcxrumjobf/Build/Products/Debug",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "knowedsh/knowedsh-Prefix.pch";
 				PRODUCT_NAME = knowedsh;
@@ -244,11 +240,7 @@
 		4775E50318FF0D42000E91F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/JS_Sandbox-dvswmgzftiidtufrsoshomgktmly/Build/Products/Debug",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/KnowedStuff-axkilnccmrdixxbiqprcxrumjobf/Build/Products/Debug",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "knowedsh/knowedsh-Prefix.pch";
 				PRODUCT_NAME = knowedsh;
