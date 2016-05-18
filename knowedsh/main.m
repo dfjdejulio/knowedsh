@@ -11,7 +11,7 @@
 
 #import <Foundation/Foundation.h>
 #import <JavaScriptCore/JavaScriptCore.h>
-#import <Knowed/Knowed.h>
+#import "Knowed/Knowed.h"
 
 int main(int argc, const char * argv[])
 {
@@ -39,6 +39,8 @@ int main(int argc, const char * argv[])
         return @(buf);
     };
     [[KnowedFileUtil new] addSelfToContext:context];
+    [[KnowedCommonJSUtil new] addSelfToContext:context];
+
 
     printf("> ");
     while (getline(&buf, &bufsiz, stdin)>0) {
